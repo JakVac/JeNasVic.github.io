@@ -4,8 +4,10 @@ html, body {
     margin: 0px;
 }
 
-#logo {
+#main {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
     background-color: lightgrey;
     height: auto;
     width: 100vw;
@@ -14,14 +16,11 @@ html, body {
     margin-left: 0px;
 }
 
-img {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+#logo {
     margin-top: 0px;
 }
 
-.container {
+.menu {
     display: inline-block;
     cursor: pointer;
     margin-top: 0px;
