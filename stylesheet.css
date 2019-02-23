@@ -8,7 +8,7 @@ html, body {
     position: fixed;
     display: flex;
     justify-content: space-between;    
-    height: auto;
+    height: 10vh;
     width: 100vw;    
     margin-top: 0px;
     margin-right: 0px;
@@ -18,7 +18,8 @@ html, body {
 }
 
 #logo {
-    margin-top: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .menu {
