@@ -7,13 +7,14 @@ html, body {
 #main {
     position: fixed;
     display: flex;
-    justify-content: space-between;
-    background-color: lightgrey;
+    justify-content: space-between;    
     height: auto;
-    width: 100vw;
+    width: 100vw;    
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
+    background-color:rgba(255,255,255,0.9);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 #logo {
@@ -21,10 +22,11 @@ html, body {
 }
 
 .menu {
-    display: inline-block;
+    display: block;
     cursor: pointer;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1vw;
   }
   
 .bar1, .bar2, .bar3 {
